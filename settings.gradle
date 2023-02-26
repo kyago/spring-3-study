@@ -1,0 +1,5 @@
+rootProject.name = 'spring-3-study'
+include 'domain'
+include 'domain:user'
+findProject(':domain:user')?.name = 'user'
+
