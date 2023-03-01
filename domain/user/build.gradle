@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.kyago.domain'
+version '1.0'
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
